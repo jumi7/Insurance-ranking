@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* ------------------ */
+/* base */
+/* ------------------ */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #464646;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+  font-family: "Roboto", sans-serif, "Noto Sans JP", sans-serif;
+}
+
+.scroll {
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------------------ */
+/* header */
+/* ------------------ */
+header{
+  color: #fff;
+  background-color: #FCBEE0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  height: 5rem;
+  padding: 1.5rem;
+}
+
+main{
+  background-color: #FCBEE0;
+  padding-bottom: 10rem;
+}
+
+.wapper{
+  background-color: #fff;
+  width: 100rem;
+  margin: 0 auto;
+}
+
+section{
+  width: 90rem;
+  margin: 0 auto;
+  padding: 3rem ;
+}
+
+button{
+  width: 35rem;
+  height: 6rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #FF028C;
+  text-align: center;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+button a::after{
+  display: block;
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: 2rem;
+    width: 0;
+    height: 0;
+    margin-top: -5px;
+    border:  10px solid transparent;        /*top right bottom を透明化 */
+    border-left: 10px solid #fff;
+}
+
+button:hover{
+  opacity: 0.5;
+}
+
+
+/* ------------------ */
+/* section__campaign */
+/* ------------------ */
+.section__campaign{
+  position: relative;
+}
+
+.section__campaign_title{
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.section__campaign_title img{
+  width:5rem;
+  height: 5rem;
+}
+
+.section__campaign_title p {
+  color: #FF028C;
+  font-size: 4rem;
+  margin: 0 2rem;
+}
+
+.section__campaign button {
+  position: absolute;
+  top: 75%;
+  left: 54%;
+}
+
+/* ------------------ */
+/* section__ranking01 */
+/* ------------------ */
+.section__ranking01{
+  position: relative;
+}
+
+.section__ranking01_img{
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  position: absolute;
+  top: 68%;
+  left: 6%;
+}
+.section__ranking01 button{
+  position: absolute;
+  top: 88%;
+  left: 30%;
+}
+
+/* ------------------ */
+/* section__ranking02 */
+/* ------------------ */
+.section__ranking02{
+  position: relative;
+}
+
+.section__ranking02_img{
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  position: absolute;
+  top: 68%;
+  left: 6%;
+}
+
+.section__ranking02 button{
+  position: absolute;
+  top: 88%;
+  left: 30%;
+}
+/* ------------------ */
+/* section__ranking03 */
+/* ------------------ */
+.section__ranking03{
+  position: relative;
+}
+
+.section__ranking03_img{
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  position: absolute;
+  top: 68%;
+  left: 6%;
+}
+
+.section__ranking03 button{
+  position: absolute;
+  top: 88%;
+  left: 30%;
+}
+
+/* ------------------ */
+/* section__ranking04 */
+/* ------------------ */
+.section__ranking04{
+  position: relative;
+}
+
+.section__ranking04_img{
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  position: absolute;
+  top: 68%;
+  left: 6%;
+}
+
+.section__ranking04 button{
+  position: absolute;
+  top: 88%;
+  left: 30%;
+}
+
+/* ------------------ */
+/* section__ranking05 */
+/* ------------------ */
+.section__ranking05{
+  position: relative;
+}
+
+.section__ranking05_img{
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  position: absolute;
+  top: 68%;
+  left: 6%;
+}
+
+.section__ranking05 button{
+  position: absolute;
+  top: 88%;
+  left: 30%;
+}
+
+/* ------------------ */
+/* section__king */
+/* ------------------ */
+.section__king{
+  display: flex;
+}
+
+.section__king img{
+  width: 35rem;
+  height: 35rem;
+}
+
+.section__king p{
+  color: #FF028C;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 3rem 0;
+}
+
+/* ------------------ */
+/* footer */
+/* ------------------ */
+.footer__top{
+  color:#0080D4;
+  background-color: #fff;
+  font-weight: bold;
+  text-align: center;
+  height: 5rem;
+  padding: 1.5rem;
+}
+
+.footer__nav{
+  background-color: #FFB2DC;
+  height: 5rem;
+  padding: 1.5rem;
+}
+
+.footer__nav ul{
+  display: flex;
+  justify-content: center;
+}
+
+.footer__nav li {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer__bottom{
+  color: #fff;
+  background-color: #FF028C;
+  text-align: center;
+  height: 5rem;
+  padding: 1.5rem;
+
+}
