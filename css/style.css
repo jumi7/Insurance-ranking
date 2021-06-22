@@ -38,6 +38,8 @@ header{
   text-align: center;
   height: 5rem;
   padding: 1.5rem;
+  /* width: 100rem; */
+
 }
 
 main{
@@ -47,12 +49,12 @@ main{
 
 .wapper{
   background-color: #fff;
-  width: 100rem;
+  width: 80%;
   margin: 0 auto;
 }
 
 section{
-  width: 90rem;
+  width: 80%;
   margin: 0 auto;
   padding: 3rem ;
 }
@@ -86,144 +88,212 @@ button:hover{
   opacity: 0.5;
 }
 
+/* ------------------ */
+/* FV */
+/* ------------------ */
+.fv_pc{ display: block !important; }
+.fv_sp { display: none !important; }
 
 /* ------------------ */
-/* section__campaign */
+/* title */
 /* ------------------ */
-.section__campaign{
-  position: relative;
-}
 
-.section__campaign_title{
+.title{
   display: flex;
   justify-content: center;
-  padding: 3rem 0;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 
-.section__campaign_title img{
+.title img{
   width:5rem;
   height: 5rem;
 }
 
-.section__campaign_title p {
+.title p {
   color: #FF028C;
   font-size: 4rem;
+  font-weight: bold;
   margin: 0 2rem;
+}
+
+/* ------------------ */
+/* section__campaign */
+/* ------------------ */
+
+.section__campaign{
+  position: relative;
+  width: 80%;
+  height: 38rem;
+  background-color: #FFF3F9;
+  border: solid;
+  border-color:  #FF028C;
+}
+
+.section__campaign_title{
+  width: 70%;
+  color: #fff;
+  background-color: #FF028C;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-radius: 3rem;
+  padding: 1rem;
+  position: absolute;
+  top: -8%;
+  left: 17%;
+}
+
+.section__campaign img {
+  position: absolute;
+  width: 40rem;
+  height: 24rem;
+  top: 20%;
+}
+
+.section__campaign_box{
+  position: absolute;
+  top: 18%;
+  left: 55%;
+}
+.section__campaign_name{
+  color: #FF028C;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.section__campaign_p{
+  color:#FF028C;
+  font-size: 2rem;
 }
 
 .section__campaign button {
   position: absolute;
-  top: 75%;
+  top: 73%;
   left: 54%;
 }
 
 /* ------------------ */
-/* section__ranking01 */
+/* section__ranking */
 /* ------------------ */
-.section__ranking01{
+.section__ranking{
   position: relative;
+  width: 80%;
+  height: 120rem;
+  border: solid;
+  border-color: #FFB2DC;
+  margin-top: 5rem;
+  border-radius: 0.5rem;
 }
 
-.section__ranking01_img{
-  width: 20rem;
-  height: 15rem;
+.section__ranking_title img{
+  width: 18%;
+  height: 9.4rem;
+  position: absolute;
+  top: -0.8%;
+  left: -0.8%;
+  z-index: 2;
+}
+
+.section__ranking_title p {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  background-color: #FFB2DC;
+  width: 100.5%;
+  height: 6rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  text-align: center;
+  position: absolute;
+  top: 0%;
+  left: -0.3%;
+  z-index: 1;
+}
+
+.section__ranking_rogo{
+  width: 33%;
+  height: 25rem;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.section__ranking_star{
+  width: 43%;
+  height: 35rem;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+
+.section__ranking_text{
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  font-size: 1.8rem;
+}
+
+#section__ranking_text{
+  top: 38%;
+}
+
+.section__ranking_text span{
+  color: #FF028C;
+  font-weight: bold;
+}
+
+.section__ranking_recommended{
+  color: #FF028C;
+  font-weight: bold;
+  text-align: center;
+  background-color:  #FFF3F9;
+  width: 88.27%;
+  height: 4rem;
+  border: solid;
+  border-width: 0.15rem;
+  border-color: #FF028C;
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  padding-top: 0.5rem;
+}
+
+.section__ranking_point{
   display: flex;
+  flex-wrap: wrap;
   position: absolute;
   top: 68%;
-  left: 6%;
+  left: 5%;
 }
-.section__ranking01 button{
+
+.section__ranking_point img{
+  width: 20rem;
+  height: 9rem;
+}
+
+
+.section__ranking_img{
+  width: 90%;
+  height: 15rem;
+  display: flex;
+  flex-wrap: wrap;
   position: absolute;
-  top: 88%;
+  top: 78%;
+  left: 5%;
+}
+
+.section__ranking_img img{
+  width: 20rem;
+  height: 15rem;
+}
+
+.section__ranking button{
+  position: absolute;
+  top: 93%;
   left: 30%;
 }
 
-/* ------------------ */
-/* section__ranking02 */
-/* ------------------ */
-.section__ranking02{
-  position: relative;
-}
 
-.section__ranking02_img{
-  width: 20rem;
-  height: 15rem;
-  display: flex;
-  position: absolute;
-  top: 68%;
-  left: 6%;
-}
-
-.section__ranking02 button{
-  position: absolute;
-  top: 88%;
-  left: 30%;
-}
-/* ------------------ */
-/* section__ranking03 */
-/* ------------------ */
-.section__ranking03{
-  position: relative;
-}
-
-.section__ranking03_img{
-  width: 20rem;
-  height: 15rem;
-  display: flex;
-  position: absolute;
-  top: 68%;
-  left: 6%;
-}
-
-.section__ranking03 button{
-  position: absolute;
-  top: 88%;
-  left: 30%;
-}
-
-/* ------------------ */
-/* section__ranking04 */
-/* ------------------ */
-.section__ranking04{
-  position: relative;
-}
-
-.section__ranking04_img{
-  width: 20rem;
-  height: 15rem;
-  display: flex;
-  position: absolute;
-  top: 68%;
-  left: 6%;
-}
-
-.section__ranking04 button{
-  position: absolute;
-  top: 88%;
-  left: 30%;
-}
-
-/* ------------------ */
-/* section__ranking05 */
-/* ------------------ */
-.section__ranking05{
-  position: relative;
-}
-
-.section__ranking05_img{
-  width: 20rem;
-  height: 15rem;
-  display: flex;
-  position: absolute;
-  top: 68%;
-  left: 6%;
-}
-
-.section__ranking05 button{
-  position: absolute;
-  top: 88%;
-  left: 30%;
-}
 
 /* ------------------ */
 /* section__king */
@@ -279,5 +349,192 @@ button:hover{
   text-align: center;
   height: 5rem;
   padding: 1.5rem;
+
+}
+
+@media screen and (max-width: 768px) {
+/* ------------------ */
+/* sp_fv */
+/* ------------------ */
+.fv_pc{ display: none !important; }
+.fv_sp { display: block !important; }
+
+
+  button{
+    width: 30rem;
+    height: 4rem;
+    font-size: 1.8rem;
+  }
+  
+  .wapper{
+    width: 100%;
+    overflow: hidden;
+  }
+
+  section{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .title{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .title img{
+    width:3rem;
+    height: 3rem;
+  }
+
+  .title p {
+    font-size: 2rem;
+  }
+
+/* ------------------ */
+/* sp_section__campaign */
+/* ------------------ */
+  
+  .section__campaign{
+    width: 95%;
+  }
+  
+  .section__campaign_title{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  
+  .section__campaign img {
+    width: 30rem;
+    height: 18rem;
+    top: 7%;
+  }
+  
+  .section__campaign_box{
+    top: 57%;
+    left: 10%;
+  }
+
+  .section__campaign_name{
+    font-size: 1.9rem;
+  }
+  
+  .section__campaign_p{
+    font-size: 1.2rem;
+  }
+  
+  .section__campaign button {
+    top: 86%;
+    left: 8%;
+  }
+
+/* ------------------ */
+/* sp_section__ranking */
+/* ------------------ */
+  
+  .section__ranking{
+    width: 95%;
+    height: 100rem;
+  }
+  
+  .section__ranking_title img{
+    width: 25%;
+    height: 6rem;
+    top: -0.55%;
+    left: -1.4%;
+  }
+  
+  .section__ranking_title p {
+    font-size: 2.2rem;
+    width: 101%;
+    height: 4.5rem;
+    padding-top: 0.5rem;
+    top: -0.3%;
+    left: -0.3%;
+  }
+  
+  .section__ranking_rogo{
+    width: 40%;
+    top: 6%;
+    left: 3%;
+  }
+  
+  .section__ranking_star{
+    width: 50%;
+    height: 45rem;
+    top: 8%;
+    left: 48%;
+  }
+  
+  .section__ranking_text{
+    top: 18%;
+    left: 3%;
+    font-size: 1.2rem;
+  }
+
+  #section__ranking_text{
+    top: 22%;
+  }
+
+  .section__ranking_recommended{
+    width: 91.5%;
+    height: 4rem;
+    top: 51%;
+    left: 5%;
+    font-size: 1.3rem;
+  }
+  
+  .section__ranking_point{
+    width: 93%;
+    flex-wrap: wrap;
+    top: 55%;
+    left: 5%;
+  }
+  
+  .section__ranking_point img{
+    width: 16rem;
+    height: 8rem;
+  }
+  
+  .section__ranking_img{
+    width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    top: 73%;
+    left: 5%;
+  }
+
+  .section__ranking_img img{
+    width: 16rem;
+    height: 10rem;
+  }
+
+  .section__ranking button{
+    position: absolute;
+    top: 95%;
+    left: 7%;
+  }
+
+/* ------------------ */
+/* sp_section__king */
+/* ------------------ */
+
+.section__king{
+  width: 37rem;
+}
+  
+  .section__king img{
+    width: 16rem;
+    height: 18rem;
+  }
+
+  .section__king p{
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  main{
+    /* background-color: #FCBEE0; */
+    padding-bottom: 0rem;
+  }
 
 }
